@@ -1,0 +1,21 @@
+{
+  "name": "apitrove",
+  "description": "The GemTrove Backend API Library",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon server/server",
+    "start": "NODE_ENV=production node server/server"
+  },
+  "engines": {
+    "yarn": "1.22.5"
+  },
+  "devDependencies": {
+    "debug": "^4.3.1"
+  }
+}
