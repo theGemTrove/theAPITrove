@@ -10,12 +10,7 @@ const
 
 app.use(express.static('public'));
 
-app.get(
-	'/',
-	(req, res, next) => {
-
-	}
-);
+app.get('/', () => {});
 
 app.listen(PORT, () => {
 	if (devMode) {
